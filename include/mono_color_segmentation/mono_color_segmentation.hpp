@@ -5,7 +5,7 @@
 #include "sensor_msgs/msg/image.hpp"
 #include "vision_msgs/msg/label_info.hpp"
 #include "vision_msgs/msg/vision_class.hpp"
-#include "cv_bridge/cv_bridge.hpp"
+#include "cv_bridge/cv_bridge.h"
 #include <opencv4/opencv2/core.hpp>
 
 class MonoColorSegmentation : public rclcpp::Node {
